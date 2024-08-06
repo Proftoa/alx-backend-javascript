@@ -1,0 +1,26 @@
+{
+  "name": "0x01-es6_promise",
+  "version": "1.0.0",
+  "description": "0x01-ES6_promise/README.md",
+  "main": "0-promise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "babel-jest": "^29.0.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.21.0",
+    "@babel/preset-react": "^7.21.0",
+    "eslint": "^8.0.0",
+    "eslint-config-airbnb": "^19.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  }
+}
