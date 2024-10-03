@@ -1,6 +1,5 @@
 // 0-main.js
-import ClassRoom from "./0-classroom.js";
+import ClassRoom from './0-classroom';
 
 const room = new ClassRoom(10);
-console.log(room._maxStudentsSize);  // Output: 10
- 
+console.log(room._maxStudentsSize);
