@@ -1,11 +1,17 @@
-firstname,lastname,age,field
-Johann,Kerbrou,30,CS
-Guillaume,Salou,30,SWE
-Arielle,Salou,20,CS
-Jonathan,Benou,30,CS
-Emmanuel,Turlou,40,CS
-Guillaume,Plessous,35,CS
-Joseph,Crisou,34,SWE
-Paul,Schneider,60,SWE
-Tommy,Schoul,32,SWE
-Katie,Shirou,21,CS
+CREATE TABLE people (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    firstname VARCHAR(50),
+    lastname VARCHAR(50),
+    age INT,
+    field VARCHAR(50)
+);
+INSERT INTO people (firstname, lastname, age, field) VALUES ('Johann', 'Kerbrou', 30, 'CS');
+INSERT INTO people (firstname, lastname, age, field) VALUES ('Guillaume', 'Salou', 30, 'SWE');
+INSERT INTO people (firstname, lastname, age, field) VALUES ('Arielle', 'Salou', 20, 'CS');
+INSERT INTO people (firstname, lastname, age, field) VALUES ('Jonathan', 'Benou', 30, 'CS');
+INSERT INTO people (firstname, lastname, age, field) VALUES ('Emmanuel', 'Turlou', 40, 'CS');
+INSERT INTO people (firstname, lastname, age, field) VALUES ('Guillaume', 'Plessous', 35, 'CS');
+INSERT INTO people (firstname, lastname, age, field) VALUES ('Joseph', 'Crisou', 34, 'SWE');
+INSERT INTO people (firstname, lastname, age, field) VALUES ('Paul', 'Schneider', 60, 'SWE');
+INSERT INTO people (firstname, lastname, age, field) VALUES ('Tommy', 'Schoul', 32, 'SWE');
+INSERT INTO people (firstname, lastname, age, field) VALUES ('Katie', 'Shirou', 21, 'CS');
