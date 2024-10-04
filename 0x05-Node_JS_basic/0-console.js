@@ -1,4 +1,4 @@
-const displayMessage = (message) => {
+const displayMessage = ("Hello NodeJS!") => {
   console.log(message);
 };
 
