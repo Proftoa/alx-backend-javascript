@@ -1,0 +1,23 @@
+{
+  "name": "alx-backend-javascript",
+  "version": "1.0.0",
+  "description": "0X00 ES6 Basics",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ghp_oMXauwV5nLPSGXHyb1WzvJyjL6Lumg0L7qnC@github.com/Proftoa/alx-backend-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Proftoa/alx-backend-javascript/issues"
+  },
+  "homepage": "https://github.com/Proftoa/alx-backend-javascript#readme",
+  "devDependencies": {
+    "mocha": "^10.7.3"
+  }
+}
